@@ -9,6 +9,6 @@
     <string name="share_template">You have to check this gift!!!</string>
     <string name="comments_title">Comments</string>
     <string name="value_checker_title">Rat calculator</string>
-    <string name="total_worth">Ratvalue total</string>
+    <string name="total_worth">Total ratvalue</string>
     <string name="share">Share with</string>
 </resources>
