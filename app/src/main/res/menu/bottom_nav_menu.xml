@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/giveaways" android:title="@string/nav_menu_giveaways"  android:icon="@drawable/giveaway"/>
+        <item android:id="@+id/valueChecker" android:title="@string/value_checker_title" android:icon="@drawable/dolar_icon"/>
+</menu>

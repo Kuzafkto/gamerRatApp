@@ -1,0 +1,50 @@
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    style="@style/Widget.Material3.CardView.Elevated">
+
+    <LinearLayout
+        android:id="@+id/btnGiveaway"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/giveaway_thumbnail"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/giveaway_description"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/giveaway_title"
+            style="@style/TextAppearance.Material3.HeadlineLarge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:layout_marginStart="16dp"
+            android:maxLines="2"
+            android:textSize="15sp"
+            android:ellipsize="end"
+            tools:text="MTGO" />
+
+        <!-- Cambiado de Button a ImageButton -->
+        <ImageButton
+            android:id="@+id/btnValueChecker"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/dolar_icon"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

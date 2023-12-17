@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">GamerRatApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="giveaway_description">Descripción del regalo</string>
+    <string name="create_comment">Comentar</string>
+    <string name="hint_comment_description">Di algo</string>
+    <string name="hint_comment_username">Nombre de usuario</string>
+    <string name="nav_menu_giveaways">Regalos</string>
+    <string name="share_button">Compartir</string>
+    <string name="share_template">Tienes que ver este regalo!!!</string>
+    <string name="comments_title">Comentarios</string>
+    <string name="value_checker_title">Calculadora de la rata</string>
+    <string name="total_worth">Rativalor total</string>
+    <string name="share">Compartir con</string>
+</resources>

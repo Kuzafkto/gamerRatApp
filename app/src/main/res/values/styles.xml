@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="orange">
+        <![CDATA[<style name="Button.Orange" parent="ThemeOverlay.AppCompat">     <item name="colorAccent">@android:color/orange</item> </style>]]></style>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_comment_description">Dis quelque chose</string>
+    <string name="nav_menu_giveaways">Cadeaux</string>
+    <string name="giveaway_description">Description du cadeau</string>
+    <string name="create_comment">Commenter</string>
+    <string name="hint_comment_username">Nom d\'utilisateur</string>
+    <string name="share_button">Partager</string>
+    <string name="share_template">Tu dois voir ce cadeau !!!</string>
+    <string name="comments_title">Commentaires</string>
+    <string name="value_checker_title">Calculatrice de rat</string>
+    <string name="total_worth">Valeur totale de rat</string>
+    <string name="share">Partager avec</string>
+</resources>

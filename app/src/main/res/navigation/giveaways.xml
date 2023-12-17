@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/giveaways"
+    app:startDestination="@id/giveawaysListFragment">
+
+    <fragment
+        android:id="@+id/giveawaysListFragment"
+        android:label="GiveawaysListFragment"
+        android:name="com.example.ratagamerapp.ui.list.FragmentGiveAwayList">
+        <action
+            android:id="@+id/action_giveawaysListFragment_to_detailFragmentGiveaway"
+            app:destination="@id/detailFragmentGiveaway" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragmentGiveaway"
+        android:name="com.example.ratagamerapp.ui.detail.DetailFragmentGiveaway"
+        android:label="fragment_detail_giveaway"
+        tools:layout="@layout/fragment_detail_giveaway" >
+        <argument
+            android:name="Id"
+            app:argType="integer" />
+    </fragment>
+</navigation>
