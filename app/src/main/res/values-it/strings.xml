@@ -11,4 +11,5 @@
     <string name="value_checker_title">Calcolatrice di ratto</string>
     <string name="total_worth">Valore totale del rat</string>
     <string name="share">Condividi con</string>
+    <string name="worth">Valore</string>
 </resources>

@@ -11,4 +11,5 @@
     <string name="value_checker_title">Rattenrechner</string>
     <string name="total_worth">Ratengesamtwert</string>
     <string name="share">Teilen mit</string>
+    <string name="worth">Wert</string>
 </resources>

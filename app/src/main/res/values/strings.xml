@@ -12,4 +12,5 @@
     <string name="value_checker_title">Calculadora de la rata</string>
     <string name="total_worth">Rativalor total</string>
     <string name="share">Compartir con</string>
+    <string name="worth">Valor</string>
 </resources>

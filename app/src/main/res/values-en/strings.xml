@@ -11,4 +11,5 @@
     <string name="value_checker_title">Rat calculator</string>
     <string name="total_worth">Total ratvalue</string>
     <string name="share">Share with</string>
+    <string name="worth">Worth</string>
 </resources>

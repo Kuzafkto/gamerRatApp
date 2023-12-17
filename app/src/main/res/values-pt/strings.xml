@@ -11,4 +11,5 @@
     <string name="value_checker_title">Calculadora de rato</string>
     <string name="total_worth">Valor total de rato</string>
     <string name="share">Compartilhar com</string>
+    <string name="worth">Valor</string>
 </resources>
