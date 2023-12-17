@@ -40,7 +40,7 @@ class AdapterValueCheckerList(private val context: Context) :
 
             context.imageLoader.enqueue(thumbnailRequest)
 
-                binding.giveawayWorth.text=giveaway.worth
+                binding.giveawayWorth.text="Worth: "+giveaway.worth
         }
 
     }
